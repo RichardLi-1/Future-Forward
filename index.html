@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Forward</title>
+    <link rel="shortcut icon" href="logo.svg" type="image/x-icon">
+    <link href="style.css" rel="stylesheet">
+    <link href="profile-style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="head">
+        <div class="header-left">
+            <img id="logo" src="fflogo.PNG" alt="Logo">
+            <h1 id="navbar-title">Future Forward</h1>
+        </div>
+        <nav>
+            <a class="buttons" href="/../">Home</a>
+            <a class="buttons" href="photos.html">Photos</a>
+            <a class="buttons" href="https://www.lirichard.io/projects">Projects</a>
+            <a href="https://www.linkedin.com/in/richardli0/" target="_blank" rel="noopener noreferrer">
+                <img class="buttons" src="linkedin.jpeg" alt="LinkedIn" style="max-height:16px;max-width:16px;margin: 0 0px;">
+            </a>
+            <a href="https://github.com/RichardLi-1" target="_blank" rel="noopener noreferrer">
+                <img class="buttons" src="github.png" alt="Github" style="max-height:17px;max-width:17px;margin: 0 0px;">
+            </a>
+            <img src="menu.png" onclick="toggleMenu()" class="social-icon mobile-only">
+        </nav>
+    </div>
+
+    <!-- Menu content -->
+    <div id="menu" onclick="toggleMenu()" class="menu-content">
+        <a href="index.html" class="menu-item common-font">Home</a>
+        <a href="photos.html" class="menu-item common-font">Photos</a>
+        <a href="projects.html" class="menu-item common-font">Projects</a>
+        <div class="menu-item">
+            <a href="https://www.linkedin.com/company/100954304" target="_blank" rel="noopener noreferrer">
+                <img src="linkedin.jpeg" alt="LinkedIn" style="max-height:30px;max-width:30px;margin: 0 0px;">
+            </a>
+            <a href="https://github.com/RichardLi-1" target="_blank" rel="noopener noreferrer">
+                <img src="github.png" alt="GitHub" style="max-height:30px;max-width:30px;margin: 0 0px;">
+            </a>
+        </div>
+    </div>
+
+    <!-- Top Image Area -->
+    <div class="sunset" id="home">
+        <div id="title-container">
+        <h2 id="title-text" class="page-text" style="text-align: center;">Future</h2><h2 style="text-align: center;" id="title-text" class="accent">Forward</h2>
+    
+        </div>
+    </div>
+    <div class="container2">
+        <h2 class="common-font accent">About Me</h2>
+        <p class="page-text">I'm a grade 12 student passionate about business, transportation planning, and computer science.</p>
+        <br>
+
+        <h2 class="common-font accent">Projects</h2>
+        <div class="slideshow-container">
+            <div class="slides-wrapper">
+                <div class="slide fade">
+                    <a href="https://www.futureforward.info" target="_blank" rel="noopener noreferrer"><img src="fflogo.PNG" alt="Future Forward"></a>
+                    <div class="text"><p class="common-font">Future Forward</p></div>
+                </div>
+                <div class="slide fade">
+                    <a href="https://apps.apple.com/ca/app/bo-nk/id1570376501" target="_blank" rel="noopener noreferrer"><img src="boink.jpeg" alt="Bo!nk - iOS Game"></a>
+                    <div class="text"><p class="common-font">Bo!nk - iOS Game</p></div>
+                </div>
+                <div class="slide fade">
+                    <a href="citybuilder.html"><img src="citybuilder.png" alt="City Builder"></a>
+                    <div class="text"><p class="common-font">City Builder</p></div>
+                </div>
+                <div class="slide fade">
+                    <a href="Ambrosia/"><img src="ambrosia.png" alt="Ambrosia"></a>
+                    <div class="text"><p class="common-font">Ambrosia - Custom Skincare Curator</p></div>
+                </div>
+                <div class="slide fade">
+                    <a href="sudoku.html"><img src="sudoku.png" alt="Sudoku"></a>
+                    <div class="text"><p class="common-font">Sudoku</p></div>
+                </div>
+                <div class="slide fade">
+                    <img src="image5.jpg" alt="Swift App">
+                    <div class="text"><p class="common-font">Swift App</p></div>
+                </div>
+                <div class="slide fade">
+                    <a href="GlimmersOfHope/"><img src="image5.jpg" alt="Glimmers of Hope"></a>
+                    <div class="text"><p class="common-font">Glimmers of Hope</p></div>
+                </div>
+                <div class="slide fade">
+                    <a href="map.html"><img src="map.jpeg" alt="Toronto Transportation Map"></a>
+                    <div class="text"><p class="common-font">Hypothetical Toronto Transit Map</p></div>
+                </div>
+                <div class="slide fade">
+                    <a href=""><img src="" alt="Tote-Ally Yours"></a>
+                    <div class="text"><p class="common-font">Tote-Ally Yours</p></div>
+                </div>
+            </div>
+            
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    
+        <!-----contact----->
+        <div id="contact">
+            <h2 class="common-font accent">Contact</h2>
+            <p class="page-text" style="font-size:18px">
+                <a href="mailto:contact@futureforward.info" style="text-decoration: none;" class="page-text">contact@futureforward.info</a>
+                <br><br>
+            </p>
+        </div>
+    </div>
+    
+    
+    
+    <footer id="includeHtml"></footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        $(function() {
+            $("#includeHtml").load("footer.html");
+        });
+    </script>
+
+<div class="preload">
+    <img style="width:0px;height:0px;" src="photo1.png"></div>
+    <img style="width:0px;height:0px;" src="photo2.png"></div>
+    <img style="width:0px;height:0px;" src="photo3.png"></div>
+    <img style="width:0px;height:0px;" src="photo4.JPG"></div>
+    <img style="width:0px;height:0px;" src="photo5.png"></div>
+    <img style="width:0px;height:0px;" src="photo6.png"></div>
+</div>
+</body>
+</html>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(function() {
+        $("#includeHtml").load("footer.html");
+    });
+</script>
