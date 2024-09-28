@@ -7,16 +7,30 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Gill Sans';
+  src: url('Gill\ Sans.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lulo Clean';
+  src: url('Lulo-Clean.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html, body {
   width: 100%;
   overflow-x: hidden;
   margin: 0;
   /*background-color: #FCFCFC;*/
-  background-color: #111111;
+  background-color: #FFFFFF;
 }
 
 .common-font {
-  font-family: Neue Machina;
+  font-family: Gill Sans;
 }
 
 .accent{
@@ -24,7 +38,7 @@ html, body {
 }
 
 #head {
-  background: #333;
+  background: #EEE;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -74,7 +88,7 @@ nav a:hover {
 
 .buttons {
   color: #EEEEEE;
-  font-family: Neue Machina;
+  font-family: Gill Sans;
   font-weight: bold;
   margin-left: 16px;
 }
@@ -82,7 +96,7 @@ nav a:hover {
 .actualbutton {
   color: #000000;
   background-color: #E8C7FF;
-  font-family: Neue Machina;
+  font-family: Gill Sans;
   font-weight: light;
   margin-left: 16px;
   padding: 10px;
@@ -103,8 +117,8 @@ nav a:hover {
 /*----------------------Sunset Photo and Below---------------------*/
 
 .page-text {
-  font-family: Neue Machina;
-  color: #E0E0E0;
+  font-family: Gill Sans;
+  color: #111111;
 }
 
 
@@ -112,13 +126,13 @@ nav a:hover {
   max-width: 1200px;
   margin: 0 auto; /* Center the container horizontally */
   padding: 0 20px; /* Padding for better readability */
-  background-color: #111111;
+  background-color: #FFFFFF;
 }
 
 #title-text {
   text-align: center;
   display:inline;
-  font-family: Neue Machina;
+  font-family: Gill Sans;
   font-size: 60px;
   margin-left:12px;
   margin-right:12px;
@@ -269,7 +283,7 @@ nav a:hover {
 .show .menu-item:nth-child(6) { animation-delay: 0.9s; }
 
 .profile-text {
-  color: #EEE;
+  color: #111;
 }
 
 /* Slideshow styles */
@@ -341,4 +355,17 @@ nav a:hover {
   display:inline;
   padding:5px;
   margin-right:5px;
+}
+
+.pill-button{
+  background-color: #111; 
+  color: #fff; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 50px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  text-transform: uppercase; 
+  transition: background-color 0.3s ease;
+  font-family: Gill Sans;
 }
